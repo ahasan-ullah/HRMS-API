@@ -10,3 +10,5 @@ D:\Workspace\SDD\HRMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Workspace\SDD\HRMS\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Workspace\SDD\HRMS\DAL\obj\Debug\DAL.dll
 D:\Workspace\SDD\HRMS\DAL\obj\Debug\DAL.pdb
+D:\Workspace\SDD\HRMS\DAL\obj\Debug\DAL.Migrations.databaseadded.resources
+D:\Workspace\SDD\HRMS\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
