@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="API/API.csproj" Id="4b39e3bc-7193-4b41-bbbe-a8aa6ab41dcf" />
+  <Project Path="BLL/BLL.csproj" Id="d477c33e-74c6-420b-a144-6a3e42de6df0" />
+  <Project Path="DAL/DAL.csproj" Id="3255558c-3c51-41ff-b318-2f9194e1f58c" />
+</Solution>

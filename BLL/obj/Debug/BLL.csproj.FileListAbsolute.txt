@@ -1,0 +1,12 @@
+D:\Workspace\SDD\HRMS\BLL\bin\Debug\BLL.dll
+D:\Workspace\SDD\HRMS\BLL\bin\Debug\BLL.pdb
+D:\Workspace\SDD\HRMS\BLL\bin\Debug\AutoMapper.dll
+D:\Workspace\SDD\HRMS\BLL\bin\Debug\DAL.dll
+D:\Workspace\SDD\HRMS\BLL\bin\Debug\DAL.pdb
+D:\Workspace\SDD\HRMS\BLL\bin\Debug\DAL.dll.config
+D:\Workspace\SDD\HRMS\BLL\bin\Debug\AutoMapper.xml
+D:\Workspace\SDD\HRMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Workspace\SDD\HRMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Workspace\SDD\HRMS\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\Workspace\SDD\HRMS\BLL\obj\Debug\BLL.dll
+D:\Workspace\SDD\HRMS\BLL\obj\Debug\BLL.pdb
