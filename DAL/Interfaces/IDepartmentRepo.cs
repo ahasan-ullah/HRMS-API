@@ -10,6 +10,5 @@ namespace DAL.Interfaces
     public interface IDepartmentRepo:IRepo<Department,int,bool>
     {
         bool NameExists(string name, int? excludeDepartmentId = null);
-        Department GetByIdWithEmployees(int departmentId);
     }
 }
