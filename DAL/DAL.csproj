@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccessFactory.cs" />
     <Compile Include="Interfaces\IDepartmentRepo.cs" />
     <Compile Include="Interfaces\IEmployeeRepo.cs" />
     <Compile Include="Interfaces\IRepo.cs" />

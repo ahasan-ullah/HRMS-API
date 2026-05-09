@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Workspace\\SDD\\HRMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms\\dal\\repositories\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|D:\\Workspace\\SDD\\HRMS\\dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|D:\\Workspace\\SDD\\HRMS\\dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|D:\\Workspace\\SDD\\HRMS\\dal\\models\\context\\hrmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\models\\context\\hrmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|D:\\Workspace\\SDD\\HRMS\\dal\\interfaces\\idepartmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\idepartmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IRepo.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS\\DAL\\Interfaces\\IRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS\\DAL\\Interfaces\\IRepo.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS\\DAL\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Department.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS\\DAL\\Models\\Department.cs",
+              "RelativeToolTip": "DAL\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T19:38:41.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T09:21:09.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS\\DAL\\Models\\User.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\User.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS\\DAL\\Models\\User.cs",
-              "RelativeToolTip": "DAL\\Models\\User.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwA0AAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DepartmentRepo.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS\\DAL\\Repositories\\DepartmentRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\DepartmentRepo.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS\\DAL\\Repositories\\DepartmentRepo.cs",
+              "RelativeToolTip": "DAL\\Repositories\\DepartmentRepo.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowD4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T19:15:27.105Z",
+              "WhenOpened": "2026-05-09T09:08:41.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HRMSDbContext.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS\\DAL\\Models\\Context\\HRMSDbContext.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\Context\\HRMSDbContext.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS\\DAL\\Models\\Context\\HRMSDbContext.cs",
-              "RelativeToolTip": "DAL\\Models\\Context\\HRMSDbContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Title": "IDepartmentRepo.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS\\DAL\\Interfaces\\IDepartmentRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IDepartmentRepo.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS\\DAL\\Interfaces\\IDepartmentRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IDepartmentRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T19:09:45.013Z"
+              "WhenOpened": "2026-05-09T09:08:10.702Z"
             }
           ]
         }
