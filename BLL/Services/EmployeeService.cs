@@ -12,19 +12,19 @@ namespace BLL.Services
 {
     public class EmployeeService
     {
-        public List<EmployeeDTO> GetAll()
+        public static List<EmployeeDTO> GetAll()
         {
             var data = DataAccessFactory.EmployeeDataAccess().Get();
             return MapperConfig.GetMapper().Map<List<EmployeeDTO>>(data);
         }
 
-        public EmployeeDTO GetById(int id)
+        public static EmployeeDTO GetById(int id)
         {
             var data = DataAccessFactory.EmployeeDataAccess().Get(id);
             return MapperConfig.GetMapper().Map<EmployeeDTO>(data);
         }
 
-        public List<EmployeeDTO> Search(string keyword)
+        public static List<EmployeeDTO> Search(string keyword)
         {
             var employees = DataAccessFactory.EmployeeDataAccess().Get();
             if (string.IsNullOrEmpty(keyword))
@@ -36,7 +36,7 @@ namespace BLL.Services
             return MapperConfig.GetMapper().Map<List<EmployeeDTO>>(employees);
         }
 
-        public List<EmployeeDTO> FilterByDepartment(int departmentId)
+        public static List<EmployeeDTO> FilterByDepartment(int departmentId)
         {
             var employees = DataAccessFactory.EmployeeDataAccess().Get();
             if (departmentId <= 0)
@@ -47,7 +47,7 @@ namespace BLL.Services
             return MapperConfig.GetMapper().Map<List<EmployeeDTO>>(employees);
         }
 
-        public bool Create(EmployeeDTO employee)
+        public static bool Create(EmployeeDTO employee)
         {
             var dept = DataAccessFactory.DepartmentDataAccess().Get(employee.DepartmentId);
             if(dept == null)
@@ -71,7 +71,7 @@ namespace BLL.Services
             return DataAccessFactory.EmployeeDataAccess().Create(emp);
         }
 
-        public bool Update(EmployeeDTO employee)
+        public static bool Update(EmployeeDTO employee)
         {
             var dept = DataAccessFactory.DepartmentDataAccess().Get(employee.DepartmentId);
             if (dept == null)
@@ -92,7 +92,7 @@ namespace BLL.Services
             return DataAccessFactory.EmployeeDataAccess().Update(emp);
         }
 
-        public bool Delete(int id)
+        public static bool Delete(int id)
         {
             var emp = DataAccessFactory.EmployeeDataAccess().Get(id);
             if (emp == null)

@@ -14,5 +14,6 @@ namespace BLL.DTOs
         public string Description { get; set; }
         public DateTime CreatedAt { get; set; }
         public int EmployeeCount { get; set; }
+        public virtual ICollection<Employee> Employees { get; set; }
     }
 }
