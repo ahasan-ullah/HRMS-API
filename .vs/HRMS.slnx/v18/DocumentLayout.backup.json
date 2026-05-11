@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Workspace\\SDD\\HRMS-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\repositories\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|d:\\workspace\\sdd\\hrms-api\\api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|solutionrelative:api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DepartmentDTO.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\DTOs\\DepartmentDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\DepartmentDTO.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\DTOs\\DepartmentDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\DepartmentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswG4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T22:05:31.355Z",
+              "WhenOpened": "2026-05-11T16:39:48.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeDTO.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\DTOs\\EmployeeDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\EmployeeDTO.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\DTOs\\EmployeeDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\EmployeeDTO.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswBgAAAAwAAAAAAAAAA==",
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "BLL\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowFAAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T22:03:50.397Z",
+              "WhenOpened": "2026-05-11T16:39:19.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeRepo.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\EmployeeRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\EmployeeRepo.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\EmployeeRepo.cs",
+              "RelativeToolTip": "DAL\\Repositories\\EmployeeRepo.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwD8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:02:12.103Z",
               "EditorCaption": ""
             }
           ]

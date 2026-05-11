@@ -56,12 +56,12 @@ namespace DAL.Repositories
 
         public List<Employee> Get()
         {
-            return dbContext.Employees.ToList();
+            return dbContext.Employees.Where(e => e.IsActive).ToList();
         }
 
         public Employee Get(int id)
         {
-            return dbContext.Employees.FirstOrDefault(e => e.EmployeeId == id);
+            return dbContext.Employees.FirstOrDefault(e => e.EmployeeId == id && e.IsActive);
         }
 
         public bool Update(Employee obj)
