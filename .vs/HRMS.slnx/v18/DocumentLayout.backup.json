@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\Workspace\\SDD\\HRMS-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|d:\\workspace\\sdd\\hrms-api\\api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|solutionrelative:api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\models\\deduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\models\\deduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\models\\bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\models\\bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|D:\\Workspace\\SDD\\HRMS-API\\bll\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\models\\salaryrevision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\models\\salaryrevision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\repositories\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\repositories\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|D:\\Workspace\\SDD\\HRMS-API\\api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|solutionrelative:api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\Employee.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\Employee.cs",
-              "RelativeToolTip": "DAL\\Models\\Employee.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAqwEwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T19:22:32.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\DepartmentController.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "API\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFUAAAAAAAAAAAAAAA==",
+              "Title": "Deduction.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\Deduction.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Deduction.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\Deduction.cs",
+              "RelativeToolTip": "DAL\\Models\\Deduction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:45:44.417Z",
+              "WhenOpened": "2026-05-11T20:08:03.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\DepartmentService.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\DepartmentService.cs",
-              "RelativeToolTip": "BLL\\Services\\DepartmentService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCkAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Bonus.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\Bonus.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Bonus.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\Bonus.cs",
+              "RelativeToolTip": "DAL\\Models\\Bonus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:45:56.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DepartmentRepo.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\DepartmentRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\DepartmentRepo.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\DepartmentRepo.cs",
-              "RelativeToolTip": "DAL\\Repositories\\DepartmentRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:46:04.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "API\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAswG4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T16:39:48.261Z",
+              "WhenOpened": "2026-05-11T20:08:03.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\EmployeeService.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "BLL\\Services\\EmployeeService.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAowFAAAABRAAAAAAAAAA==",
+              "Title": "SalaryRevision.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\SalaryRevision.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\SalaryRevision.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\SalaryRevision.cs",
+              "RelativeToolTip": "DAL\\Models\\SalaryRevision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T16:39:19.49Z",
+              "WhenOpened": "2026-05-11T20:08:01.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmployeeRepo.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\EmployeeRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\EmployeeRepo.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\EmployeeRepo.cs",
-              "RelativeToolTip": "DAL\\Repositories\\EmployeeRepo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwE0AAAAAAAAAAAAAAA==",
+              "Title": "Salary.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\Salary.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Salary.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\Salary.cs",
+              "RelativeToolTip": "DAL\\Models\\Salary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:02:12.103Z",
+              "WhenOpened": "2026-05-11T20:08:00.735Z",
               "EditorCaption": ""
             }
           ]

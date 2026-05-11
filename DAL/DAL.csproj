@@ -52,9 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="Interfaces\IBonusRepo.cs" />
+    <Compile Include="Interfaces\IDeductionRepo.cs" />
     <Compile Include="Interfaces\IDepartmentRepo.cs" />
     <Compile Include="Interfaces\IEmployeeRepo.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
+    <Compile Include="Interfaces\ISalaryRepo.cs" />
+    <Compile Include="Interfaces\ISalaryRevisionRepo.cs" />
     <Compile Include="Migrations\202605081925288_database added.cs" />
     <Compile Include="Migrations\202605081925288_database added.Designer.cs">
       <DependentUpon>202605081925288_database added.cs</DependentUpon>
