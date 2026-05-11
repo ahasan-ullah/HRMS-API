@@ -23,5 +23,10 @@ namespace BLL.DTOs
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
+        public EmployeeDTO()
+        {
+            CreatedAt = DateTime.Now;
+            IsActive = true;
+        }
     }
 }

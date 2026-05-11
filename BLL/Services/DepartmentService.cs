@@ -12,7 +12,7 @@ namespace BLL.Services
 {
     public class DepartmentService
     {
-        public List<DepartmentDTO> GetAll()
+        public static List<DepartmentDTO> GetAll()
         {
             var data = DataAccessFactory.DepartmentDataAccess().Get();
             var mappedData = MapperConfig.GetMapper().Map<List<DepartmentDTO>>(data);
@@ -24,7 +24,7 @@ namespace BLL.Services
             return mappedData;
         }
 
-        public DepartmentDTO GetById(int id)
+        public static DepartmentDTO GetById(int id)
         {
             var data = DataAccessFactory.DepartmentDataAccess().Get(id);
             if (data == null)
@@ -35,9 +35,8 @@ namespace BLL.Services
             return mappedData;
         }
 
-        public bool Create(DepartmentDTO department)
+        public static bool Create(DepartmentDTO department)
         {
-
             bool nameExists = DataAccessFactory.DepartmentDataAccess().NameExists(department.Name);
             if (nameExists)
                 return false;
@@ -47,7 +46,7 @@ namespace BLL.Services
             return DataAccessFactory.DepartmentDataAccess().Create(dept);
         }
 
-        public bool Update(DepartmentDTO department)
+        public static bool Update(DepartmentDTO department)
         {
             var existingDept = DataAccessFactory.DepartmentDataAccess().Get(department.DepartmentId);
             if (existingDept == null)
@@ -60,7 +59,7 @@ namespace BLL.Services
             return DataAccessFactory.DepartmentDataAccess().Update(dept);
         }
 
-        public bool Delete(int id)
+        public static bool Delete(int id)
         {
             var existing= DataAccessFactory.DepartmentDataAccess().Get(id);
             if (existing == null)

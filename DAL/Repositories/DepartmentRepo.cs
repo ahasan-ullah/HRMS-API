@@ -47,7 +47,7 @@ namespace DAL.Repositories
 
         public Department Get(int id)
         {
-            return dbContext.Departments.Find(id);
+            return dbContext.Departments.FirstOrDefault(d => d.DepartmentId == id);
         }
 
         public bool NameExists(string name, int? excludeDepartmentId = null)

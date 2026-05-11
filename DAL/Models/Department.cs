@@ -27,7 +27,6 @@ namespace DAL.Models
 
         public Department()
         {
-            CreatedAt = DateTime.Now;
             Employees = new List<Employee>();
         }
     }
