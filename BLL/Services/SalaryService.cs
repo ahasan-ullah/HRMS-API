@@ -17,7 +17,7 @@ namespace BLL.Services
             var data = DataAccessFactory.SalaryDataAccess().Get();
             return MapperConfig.GetMapper().Map<List<SalaryDTO>>(data);
         }
-        public static SalaryDTO Get(int id)
+        public static SalaryDTO GetById(int id)
         {
             var data = DataAccessFactory.SalaryDataAccess().Get(id);
             return MapperConfig.GetMapper().Map<SalaryDTO>(data);
