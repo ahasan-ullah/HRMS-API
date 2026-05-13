@@ -22,7 +22,7 @@ namespace DAL
         {
             return new SalaryRepo();
         }
-        public static ISalaryRevisionRepo SalaryRevisionRepoDataAccess()
+        public static ISalaryRevisionRepo SalaryRevisionDataAccess()
         {
             return new SalaryRevisionRepo();
         }
