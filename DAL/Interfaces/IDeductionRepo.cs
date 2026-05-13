@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Interfaces
 {
-    public interface IDeductionRepo:IRepo<Deduction,int,Deduction>
+    public interface IDeductionRepo:IRepo<Deduction,int,bool>
     {
         List<Deduction> GetDeductionsByEmployeeId(int employeeId);
         List<Deduction> GetDeductionsByEmployeeIdAndMonthYear(int employeeId, int month, int year);

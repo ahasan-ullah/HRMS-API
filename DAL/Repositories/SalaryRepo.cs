@@ -28,7 +28,7 @@ namespace DAL.Repositories
 
         public bool Delete(int id)
         {
-            var salary = dbContext.Salaries.Find(id);
+            var salary = dbContext.Salaries.FirstOrDefault(s => s.SalaryId == id);
             if (salary == null) return false;
 
             salary.IsActive = false;

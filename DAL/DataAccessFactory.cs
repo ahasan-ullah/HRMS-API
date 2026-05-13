@@ -18,5 +18,21 @@ namespace DAL
         {
             return new DepartmentRepo();
         }
+        public static ISalaryRepo SalaryDataAccess()
+        {
+            return new SalaryRepo();
+        }
+        public static ISalaryRevisionRepo SalaryRevisionRepoDataAccess()
+        {
+            return new SalaryRevisionRepo();
+        }
+        public static IDeductionRepo DeductionDataAccess()
+        {
+            return new DeductionRepo();
+        }
+        public static IBonusRepo BonusDataAccess()
+        {
+            return new BonusRepo();
+        }
     }
 }

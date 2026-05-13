@@ -44,8 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTOs\BonusDTO.cs" />
+    <Compile Include="DTOs\DeductionDTO.cs" />
     <Compile Include="DTOs\DepartmentDTO.cs" />
     <Compile Include="DTOs\EmployeeDTO.cs" />
+    <Compile Include="DTOs\SalaryDTO.cs" />
+    <Compile Include="DTOs\SalaryRevisionDTO.cs" />
     <Compile Include="Helpers\MapperConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\DepartmentService.cs" />

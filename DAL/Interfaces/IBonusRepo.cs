@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Interfaces
 {
-    public interface IBonusRepo:IRepo<Bonus,int,Bonus>
+    public interface IBonusRepo:IRepo<Bonus,int,bool>
     {
         List<Bonus> GetBonusesByEmployeeId(int employeeId);
     }

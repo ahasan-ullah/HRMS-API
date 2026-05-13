@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Interfaces
 {
-    public interface ISalaryRevisionRepo:IRepo<SalaryRevision,int,SalaryRevision>
+    public interface ISalaryRevisionRepo:IRepo<SalaryRevision,int,bool>
     {
         List<SalaryRevision> GetSalaryRevisionsByEmployeeId(int employeeId);
     }
