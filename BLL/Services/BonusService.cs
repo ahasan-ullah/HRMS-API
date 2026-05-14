@@ -12,7 +12,7 @@ namespace BLL.Services
 {
     public class BonusService
     {
-        public static List<BonusDTO> Get()
+        public static List<BonusDTO> GetAll()
         {
             var data = DataAccessFactory.BonusDataAccess().Get();
             return MapperConfig.GetMapper().Map<List<BonusDTO>>(data);

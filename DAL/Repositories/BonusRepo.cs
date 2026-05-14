@@ -49,7 +49,7 @@ namespace DAL.Repositories
 
         public List<Bonus> GetBonusesByEmployeeId(int employeeId)
         {
-            throw new NotImplementedException();
+            return dbContext.Bonuses.Include(b => b.Employee).Where(b => b.EmployeeId == employeeId).ToList();
         }
 
         public bool Update(Bonus obj)
