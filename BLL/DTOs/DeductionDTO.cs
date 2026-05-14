@@ -16,5 +16,9 @@ namespace BLL.DTOs
         public int Year { get; set; }
         public string Reason { get; set; }
         public DateTime CreatedAt { get; set; }
+        public DeductionDTO()
+        {
+            CreatedAt = DateTime.Now;
+        }
     }
 }

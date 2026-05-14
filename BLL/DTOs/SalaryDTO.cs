@@ -19,5 +19,9 @@ namespace BLL.DTOs
         public bool IsActive { get; set; }
         public string Remarks { get; set; }
         public DateTime CreatedAt { get; set; }
+        public SalaryDTO()
+        {
+            CreatedAt = DateTime.Now;
+        }
     }
 }

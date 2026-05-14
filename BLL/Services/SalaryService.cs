@@ -58,7 +58,7 @@ namespace BLL.Services
         }
         public static bool Update(SalaryDTO salary)
         {
-            var existingSalary = DataAccessFactory.SalaryDataAccess().Get(salary.Id);
+            var existingSalary = DataAccessFactory.SalaryDataAccess().Get(salary.SalaryId);
             if (existingSalary == null)
             {
                 throw new Exception("Salary not found");

@@ -47,7 +47,6 @@ namespace DAL.Models
             HouseAllowance = 0;
             MedicalAllowance = 0;
             TransportAllowance = 0;
-            CreatedAt = DateTime.Now;
         }
     }
 }

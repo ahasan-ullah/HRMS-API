@@ -15,5 +15,9 @@ namespace BLL.DTOs
         public DateTime BonusDate { get; set; }
         public string Reason { get; set; }
         public DateTime CreatedAt { get; set; }
+        public BonusDTO()
+        {
+            CreatedAt = DateTime.Now;
+        }
     }
 }
