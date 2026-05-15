@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Enums;
+        using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -41,7 +42,7 @@ namespace DAL.Models
         public User()
         {
             IsActive = true;
-            Role = "Employee";
+            Role = HRMSEnums.UserRole.Employee.ToString();
             CreatedAt = DateTime.Now;
             SalaryRevisions = new List<SalaryRevision>();
             Payrolls = new List<Payroll>();

@@ -1,6 +1,7 @@
 ﻿using BLL.DTOs;
 using BLL.Helpers;
 using DAL;
+using DAL.Enums;
 using DAL.Models;
 using System;
 using System.Collections.Generic;
@@ -58,7 +59,7 @@ namespace BLL.Services
                 PayrollYear = year,
                 GeneratedDate = DateTime.Now,
                 GeneratedBy = generatedBy,
-                Status = "Draft",
+                Status = HRMSEnums.PayrollStatus.Draft.ToString(),
                 TotalAmount = 0
             };
             DataAccessFactory.PayrollDataAccess().Create(payroll);
@@ -99,7 +100,7 @@ namespace BLL.Services
                     TotalDeductions = totalDeductions,
                     TaxAmount = taxAmount,
                     NetSalary = netSalary,
-                    PaymentStatus = "Pending"
+                    PaymentStatus = HRMSEnums.PaymentStatus.Pending.ToString()
                 };
 
                 DataAccessFactory.PayrollDetailDataAccess().Create(detail);
@@ -116,11 +117,11 @@ namespace BLL.Services
             {
                 throw new Exception("Payroll not found");
             }
-            if (payroll.Status != "Draft")
+            if (payroll.Status != HRMSEnums.PayrollStatus.Draft.ToString())
             {
                 throw new Exception("Only draft payroll can be approved");
             }
-            payroll.Status = "Approved";
+            payroll.Status = HRMSEnums.PayrollStatus.Approved.ToString();
             return DataAccessFactory.PayrollDataAccess().Update(payroll);
         }
 
@@ -131,17 +132,17 @@ namespace BLL.Services
             {
                 throw new Exception("Payroll not found");
             }
-            if (payroll.Status != "Approved")
+            if (payroll.Status != HRMSEnums.PayrollStatus.Approved.ToString())
             {
                 throw new Exception("Only approved payroll can be marked as paid");
             }
             var details = DataAccessFactory.PayrollDetailDataAccess().GetByPayroll(payrollId);
             foreach (var detail in details)
             {
-                detail.PaymentStatus = "Paid";
+                detail.PaymentStatus = HRMSEnums.PaymentStatus.Paid.ToString();
                 DataAccessFactory.PayrollDetailDataAccess().Update(detail);
             }
-            payroll.Status = "Paid";
+            payroll.Status = HRMSEnums.PayrollStatus.Paid.ToString();
             return DataAccessFactory.PayrollDataAccess().Update(payroll);
         }
 

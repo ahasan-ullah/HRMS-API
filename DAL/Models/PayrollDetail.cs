@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -47,7 +48,7 @@ namespace DAL.Models
 
         public PayrollDetail()
         {
-            PaymentStatus = "Pending";
+            PaymentStatus = HRMSEnums.PaymentStatus.Pending.ToString();
             TotalAllowances = 0;
             BonusAmount = 0;
             TotalDeductions = 0;

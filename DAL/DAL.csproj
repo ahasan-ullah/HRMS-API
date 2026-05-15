@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="Enums\HRMSEnums.cs" />
     <Compile Include="Interfaces\IBonusRepo.cs" />
     <Compile Include="Interfaces\IDeductionRepo.cs" />
     <Compile Include="Interfaces\IDepartmentRepo.cs" />
