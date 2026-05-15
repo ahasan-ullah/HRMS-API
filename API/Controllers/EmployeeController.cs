@@ -1,4 +1,5 @@
-﻿using BLL.DTOs;
+﻿using API.Filters;
+using BLL.DTOs;
 using BLL.Services;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ using System.Web.Routing;
 namespace API.Controllers
 {
     [RoutePrefix("api/employee")]
+    [JWTAuthFilter("Admin", "HR")]
     public class EmployeeController : ApiController
     {
         [HttpGet]

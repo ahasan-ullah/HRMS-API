@@ -1,4 +1,5 @@
-﻿using BLL.DTOs;
+﻿using API.Filters;
+using BLL.DTOs;
 using BLL.Services;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,11 @@ using System.Web.Http;
 namespace API.Controllers
 {
     [RoutePrefix("api/deduction")]
+    [JWTAuthFilter("Admin", "HR")]
     public class DeductionController : ApiController
     {
+        [HttpGet]
+        [Route("all")]
         public HttpResponseMessage GetAll()
         {
             try

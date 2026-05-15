@@ -11,7 +11,7 @@ namespace BLL.Helpers
 {
     public class JWTHelper
     {
-        private const string SecretKey = "my_super_secret_key_12345";
+        private const string SecretKey = "1sALyoMtgJuO3LJfg8UhoEvkXzh+FSdXFiqXVzOQ6HqK7eEruxTevn53Vew6uida8FFAZhR3ZszlcNaIuJUAXQ==";
         private const int AccessTokenMinutes = 15;
 
         public static string GenerateAccessToken(int userId, string username, string role)

@@ -1,4 +1,5 @@
-﻿using BLL.DTOs;
+﻿using API.Filters;
+using BLL.DTOs;
 using BLL.Services;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Web.Http;
 namespace API.Controllers
 {
     [RoutePrefix("api/payroll")]
+    [JWTAuthFilter("Admin", "HR")]
     public class PayrollController : ApiController
     {
         [HttpGet]
@@ -86,6 +88,7 @@ namespace API.Controllers
 
         [HttpPut]
         [Route("approve/{id:int}")]
+        [JWTAuthFilter("Admin")]
         public HttpResponseMessage Approve(int id)
         {
             try
@@ -104,6 +107,7 @@ namespace API.Controllers
 
         [HttpPut]
         [Route("markpaid/{id:int}")]
+        [JWTAuthFilter("Admin")]
         public HttpResponseMessage MarkAsPaid(int id)
         {
             try
