@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\Workspace\\SDD\\HRMS-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\repositories\\bonusrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\bonusrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\services\\salaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\services\\salaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|d:\\workspace\\sdd\\hrms-api\\api\\controllers\\bonuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|solutionrelative:api\\controllers\\bonuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\dtos\\salaryrevisiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\salaryrevisiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\services\\bonusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\services\\bonusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\models\\salaryrevision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\models\\salaryrevision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|D:\\Workspace\\SDD\\HRMS-API\\dal\\repositories\\deductionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\deductionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|d:\\workspace\\sdd\\hrms-api\\api\\controllers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|solutionrelative:api\\controllers\\salarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\dtos\\salarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\salarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BonusRepo.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\BonusRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\BonusRepo.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\BonusRepo.cs",
-              "RelativeToolTip": "DAL\\Repositories\\BonusRepo.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SalaryController.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\SalaryController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\SalaryController.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\SalaryController.cs",
+              "RelativeToolTip": "API\\Controllers\\SalaryController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAywIIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T19:17:03.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataAccessFactory.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\DataAccessFactory.cs",
-              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\DataAccessFactory.cs",
-              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T19:07:29.536Z",
+              "WhenOpened": "2026-05-15T06:07:43.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BonusService.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\BonusService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\BonusService.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\BonusService.cs",
-              "RelativeToolTip": "BLL\\Services\\BonusService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwBkAAAA0AAAAAAAAAA==",
+              "Title": "SalaryRevision.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\SalaryRevision.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\SalaryRevision.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\SalaryRevision.cs",
+              "RelativeToolTip": "DAL\\Models\\SalaryRevision.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T18:59:56.996Z",
+              "WhenOpened": "2026-05-15T06:05:26.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BonusController.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\BonusController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\BonusController.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\BonusController.cs",
-              "RelativeToolTip": "API\\Controllers\\BonusController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAADcAAAAMAAAAAAAAAA==",
+              "Title": "SalaryRevisionDTO.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\DTOs\\SalaryRevisionDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\SalaryRevisionDTO.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\DTOs\\SalaryRevisionDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\SalaryRevisionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T18:59:24.37Z",
+              "WhenOpened": "2026-05-15T05:39:50.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeductionRepo.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\DeductionRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\DeductionRepo.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\DeductionRepo.cs",
-              "RelativeToolTip": "DAL\\Repositories\\DeductionRepo.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "SalaryDTO.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\DTOs\\SalaryDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\SalaryDTO.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\DTOs\\SalaryDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\SalaryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T18:17:37.004Z"
+              "WhenOpened": "2026-05-15T05:47:46.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalaryService.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\SalaryService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\SalaryService.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\SalaryService.cs*",
+              "RelativeToolTip": "BLL\\Services\\SalaryService.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAHAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T05:39:57.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\Salary.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Salary.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Models\\Salary.cs",
+              "RelativeToolTip": "DAL\\Models\\Salary.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAABAwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:02:11.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:19:20.301Z",
+              "EditorCaption": ""
             }
           ]
         }

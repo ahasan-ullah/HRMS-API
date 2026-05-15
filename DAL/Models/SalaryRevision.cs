@@ -22,9 +22,6 @@ namespace DAL.Models
         [Range(typeof(decimal), "0", "999999999999.99")]
         public decimal NewSalary { get; set; }
 
-        [Required]
-        public DateTime RevisionDate { get; set; }
-
         [StringLength(500)]
         public string Reason { get; set; }
 
@@ -37,7 +34,6 @@ namespace DAL.Models
         public virtual Employee Employee { get; set; }
 
         public virtual User RevisedByUser { get; set; }
-
         public SalaryRevision()
         {
             CreatedAt = DateTime.Now;

@@ -56,12 +56,22 @@
     <Compile Include="Interfaces\IDeductionRepo.cs" />
     <Compile Include="Interfaces\IDepartmentRepo.cs" />
     <Compile Include="Interfaces\IEmployeeRepo.cs" />
+    <Compile Include="Interfaces\IPayrollDetailRepo.cs" />
+    <Compile Include="Interfaces\IPayrollRepo.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Interfaces\ISalaryRepo.cs" />
     <Compile Include="Interfaces\ISalaryRevisionRepo.cs" />
     <Compile Include="Migrations\202605081925288_database added.cs" />
     <Compile Include="Migrations\202605081925288_database added.Designer.cs">
       <DependentUpon>202605081925288_database added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202605150556297_upadted salary revision table.cs" />
+    <Compile Include="Migrations\202605150556297_upadted salary revision table.Designer.cs">
+      <DependentUpon>202605150556297_upadted salary revision table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202605150602396_upadted salary table.cs" />
+    <Compile Include="Migrations\202605150602396_upadted salary table.Designer.cs">
+      <DependentUpon>202605150602396_upadted salary table.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Bonus.cs" />
@@ -79,6 +89,7 @@
     <Compile Include="Repositories\DeductionRepo.cs" />
     <Compile Include="Repositories\DepartmentRepo.cs" />
     <Compile Include="Repositories\EmployeeRepo.cs" />
+    <Compile Include="Repositories\PayrollRepo.cs" />
     <Compile Include="Repositories\SalaryRepo.cs" />
     <Compile Include="Repositories\SalaryRevisionRepo.cs" />
   </ItemGroup>
@@ -89,6 +100,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202605081925288_database added.resx">
       <DependentUpon>202605081925288_database added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202605150556297_upadted salary revision table.resx">
+      <DependentUpon>202605150556297_upadted salary revision table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202605150602396_upadted salary table.resx">
+      <DependentUpon>202605150602396_upadted salary table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

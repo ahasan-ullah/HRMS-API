@@ -15,7 +15,6 @@ namespace BLL.DTOs
         public decimal MedicalAllowance { get; set; }
         public decimal TransportAllowance { get; set; }
         public decimal GrossSalary { get; set; }
-        public DateTime EffectiveDate { get; set; }
         public bool IsActive { get; set; }
         public string Remarks { get; set; }
         public DateTime CreatedAt { get; set; }

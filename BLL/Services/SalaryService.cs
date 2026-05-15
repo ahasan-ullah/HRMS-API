@@ -95,10 +95,8 @@ namespace BLL.Services
                 EmployeeId = obj.EmployeeId,
                 OldSalary = activeSalary.BasicSalary,
                 NewSalary = obj.NewSalary,
-                RevisionDate = DateTime.Now,
                 Reason = obj.Reason,
-                RevisedBy = obj.RevisedBy,
-                CreatedAt = DateTime.Now
+                RevisedBy = obj.RevisedBy
             };
             DataAccessFactory.SalaryRevisionDataAccess().Create(salaryRevision);
             activeSalary.IsActive = false;
@@ -111,7 +109,6 @@ namespace BLL.Services
                 HouseAllowance = activeSalary.HouseAllowance,
                 MedicalAllowance = activeSalary.MedicalAllowance,
                 TransportAllowance = activeSalary.TransportAllowance,
-                EffectiveDate = DateTime.Now,
                 IsActive = true,
                 Remarks = "Revised salary"
             };
