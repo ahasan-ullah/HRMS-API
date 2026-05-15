@@ -18,6 +18,7 @@ namespace DAL.Models.Context
         public DbSet<Bonus> Bonuses { get; set; }
         public DbSet<Payroll> Payrolls { get; set; }
         public DbSet<PayrollDetail> PayrollDetails { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -80,6 +81,12 @@ namespace DAL.Models.Context
                 .HasRequired(pd => pd.Employee)
                 .WithMany(e => e.PayrollDetails)
                 .HasForeignKey(pd => pd.EmployeeId)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<RefreshToken>()
+                .HasRequired(rt => rt.User)
+                .WithMany(u => u.RefreshTokens)
+                .HasForeignKey(rt => rt.UserId)
                 .WillCascadeOnDelete(false);
         }
     }

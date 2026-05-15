@@ -1,4 +1,5 @@
-﻿using BLL.Services;
+﻿using BLL.DTOs;
+using BLL.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -67,11 +68,11 @@ namespace API.Controllers
 
         [HttpPost]
         [Route("generate")]
-        public HttpResponseMessage Generate(int month, int year, int generatedBy)
+        public HttpResponseMessage Generate(GeneratePayrollDTO obj)
         {
             try
             {
-                bool result = PayrollService.Generate(month, year, generatedBy);
+                bool result = PayrollService.Generate(obj.Month, obj.Year, obj.GeneratedBy);
                 if (!result)
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Failed to generate payroll.");
 

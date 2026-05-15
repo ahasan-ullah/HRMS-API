@@ -49,6 +49,10 @@ namespace BLL.Services
             if (DataAccessFactory.PayrollDataAccess().ExistsForPeriod(month, year))
                 throw new Exception($"Payroll already generated for {month}/{year}.");
 
+            var generatedByUser = DataAccessFactory.UserDataAccess().Get(generatedBy);
+            if (generatedByUser == null)
+                throw new Exception("Generating user not found.");
+
             var employees = DataAccessFactory.EmployeeDataAccess().Get();
             if (employees == null || employees.Count == 0)
                 throw new Exception("No active employees found.");

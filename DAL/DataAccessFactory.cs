@@ -42,5 +42,9 @@ namespace DAL
         {
             return new PayrollDetailRepo();
         }
+        public static IUserRepo UserDataAccess()
+        {
+            return new UserRepo();
+        }
     }
 }

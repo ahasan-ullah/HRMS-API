@@ -48,6 +48,7 @@
     <Compile Include="DTOs\DeductionDTO.cs" />
     <Compile Include="DTOs\DepartmentDTO.cs" />
     <Compile Include="DTOs\EmployeeDTO.cs" />
+    <Compile Include="DTOs\GeneratePayrollDTO.cs" />
     <Compile Include="DTOs\PayrollDetailDTO.cs" />
     <Compile Include="DTOs\PayrollDTO.cs" />
     <Compile Include="DTOs\SalaryDTO.cs" />

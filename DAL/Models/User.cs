@@ -38,6 +38,7 @@ namespace DAL.Models
         public virtual ICollection<SalaryRevision> SalaryRevisions { get; set; }
 
         public virtual ICollection<Payroll> Payrolls { get; set; }
+        public virtual ICollection<RefreshToken> RefreshTokens { get; set; }
 
         public User()
         {
@@ -46,6 +47,7 @@ namespace DAL.Models
             CreatedAt = DateTime.Now;
             SalaryRevisions = new List<SalaryRevision>();
             Payrolls = new List<Payroll>();
+            RefreshTokens = new List<RefreshToken>();
         }
     }
 }
