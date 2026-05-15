@@ -89,6 +89,7 @@
     <Compile Include="Repositories\DeductionRepo.cs" />
     <Compile Include="Repositories\DepartmentRepo.cs" />
     <Compile Include="Repositories\EmployeeRepo.cs" />
+    <Compile Include="Repositories\PayrollDetailRepo.cs" />
     <Compile Include="Repositories\PayrollRepo.cs" />
     <Compile Include="Repositories\SalaryRepo.cs" />
     <Compile Include="Repositories\SalaryRevisionRepo.cs" />

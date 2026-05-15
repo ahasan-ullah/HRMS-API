@@ -34,5 +34,13 @@ namespace DAL
         {
             return new BonusRepo();
         }
+        public static IPayrollRepo PayrollDataAccess()
+        {
+            return new PayrollRepo();
+        }
+        public static IPayrollDetailRepo PayrollDetailDataAccess()
+        {
+            return new PayrollDetailRepo();
+        }
     }
 }

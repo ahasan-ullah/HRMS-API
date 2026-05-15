@@ -28,12 +28,17 @@ namespace DAL.Repositories
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var payroll = dbContext.Payrolls.FirstOrDefault(p => p.PayrollId == id);
+            if (payroll == null)
+                return false;
+            if (payroll.Status != "Draft") return false;
+            dbContext.Payrolls.Remove(payroll);
+            return dbContext.SaveChanges() > 0;
         }
 
         public bool ExistsForPeriod(int month, int year)
         {
-            throw new NotImplementedException();
+            return dbContext.Payrolls.Any(p => p.PayrollMonth == month && p.PayrollYear == year);
         }
 
         public List<Payroll> Get()
@@ -48,7 +53,8 @@ namespace DAL.Repositories
 
         public Payroll GetByMonthYear(int month, int year)
         {
-            throw new NotImplementedException();
+            return dbContext.Payrolls.Include(p => p.PayrollDetails)
+                .FirstOrDefault(p => p.PayrollMonth == month && p.PayrollYear == year);
         }
 
         public bool Update(Payroll obj)
