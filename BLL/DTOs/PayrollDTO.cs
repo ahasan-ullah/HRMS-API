@@ -14,7 +14,6 @@ namespace BLL.DTOs
         public int PayrollYear { get; set; }
         public DateTime GeneratedDate { get; set; }
         public int GeneratedBy { get; set; }
-        public string GeneratedByUsername { get; set; }
         public decimal TotalAmount { get; set; }
         public string Status { get; set; }
         public int TotalEmployees { get; set; }

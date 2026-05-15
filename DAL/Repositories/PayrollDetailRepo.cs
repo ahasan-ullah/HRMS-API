@@ -40,17 +40,17 @@ namespace DAL.Repositories
 
         public List<PayrollDetail> Get()
         {
-            return dbContext.PayrollDetails.Include(pd=>pd.Employee).Include(pd=>pd.Employee.Department).Include(pd=>pd.Payroll).ToList();
+            return dbContext.PayrollDetails.Include(pd=>pd.Employee).Include(pd=>pd.Payroll).ToList();
         }
 
         public PayrollDetail Get(int id)
         {
-            return dbContext.PayrollDetails.Include(pd => pd.Employee).Include(pd => pd.Employee.Department).Include(pd => pd.Payroll).FirstOrDefault(pd => pd.PayrollDetailId == id);
+            return dbContext.PayrollDetails.Include(pd => pd.Employee).Include(pd => pd.Payroll).FirstOrDefault(pd => pd.PayrollDetailId == id);
         }
 
         public List<PayrollDetail> GetByPayroll(int payrollId)
         {
-            return dbContext.PayrollDetails.Include(pd => pd.Employee).Include(pd => pd.Employee.Department).Include(pd => pd.Payroll).Where(pd => pd.PayrollId == payrollId).ToList();
+            return dbContext.PayrollDetails.Include(pd => pd.Employee).Include(pd => pd.Payroll).Where(pd => pd.PayrollId == payrollId).ToList();
         }
 
         public PayrollDetail GetByPayrollAndEmployee(int payrollId, int employeeId)
@@ -66,12 +66,11 @@ namespace DAL.Repositories
                 return false;
             }
             existing.PaymentStatus = obj.PaymentStatus;
-            existing.BasicSalary = obj.BasicSalary;
-            existing.TotalAllowances = obj.TotalAllowances;
-            existing.BonusAmount = obj.BonusAmount;
-            existing.TotalDeductions = obj.TotalDeductions;
-            existing.TaxAmount = obj.TaxAmount;
             existing.NetSalary = obj.NetSalary;
+            existing.TaxAmount = obj.TaxAmount;
+            existing.TotalDeductions = obj.TotalDeductions;
+            existing.BonusAmount = obj.BonusAmount;
+            existing.TotalAllowances = obj.TotalAllowances;
             return dbContext.SaveChanges() > 0;
         }
     }

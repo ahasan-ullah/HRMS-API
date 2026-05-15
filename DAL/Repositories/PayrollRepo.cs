@@ -31,7 +31,7 @@ namespace DAL.Repositories
             var payroll = dbContext.Payrolls.FirstOrDefault(p => p.PayrollId == id);
             if (payroll == null)
                 return false;
-            if (payroll.Status != "Draft") return false;
+
             dbContext.Payrolls.Remove(payroll);
             return dbContext.SaveChanges() > 0;
         }
@@ -43,7 +43,7 @@ namespace DAL.Repositories
 
         public List<Payroll> Get()
         {
-            return dbContext.Payrolls.Include(p => p.GeneratedByUser).Include(p => p.PayrollDetails).ToList();
+            return dbContext.Payrolls.Include(p => p.GeneratedByUser).ToList();
         }
 
         public Payroll Get(int id)
