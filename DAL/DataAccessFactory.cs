@@ -46,5 +46,9 @@ namespace DAL
         {
             return new UserRepo();
         }
+        public static IRefreshTokenRepo RefreshTokenDataAccess()
+        {
+            return new RefreshTokenRepo();
+        }
     }
 }

@@ -28,3 +28,4 @@ D:\Workspace\SDD\HRMS-API\DAL\obj\Debug\DAL.dll
 D:\Workspace\SDD\HRMS-API\DAL\obj\Debug\DAL.pdb
 D:\Workspace\SDD\HRMS-API\DAL\obj\Debug\DAL.Migrations.upadtedsalaryrevisiontable.resources
 D:\Workspace\SDD\HRMS-API\DAL\obj\Debug\DAL.Migrations.upadtedsalarytable.resources
+D:\Workspace\SDD\HRMS-API\DAL\obj\Debug\DAL.Migrations.tokentablecreated.resources
