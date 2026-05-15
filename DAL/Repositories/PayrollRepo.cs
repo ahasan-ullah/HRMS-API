@@ -41,9 +41,9 @@ namespace DAL.Repositories
             return dbContext.Payrolls.Any(p => p.PayrollMonth == month && p.PayrollYear == year);
         }
 
-        public List<Payroll> Get()
+        public List<Payroll> Get() 
         {
-            return dbContext.Payrolls.Include(p => p.GeneratedByUser).ToList();
+            return dbContext.Payrolls.Include(p => p.GeneratedByUser).Include(p => p.PayrollDetails).ToList();
         }
 
         public Payroll Get(int id)

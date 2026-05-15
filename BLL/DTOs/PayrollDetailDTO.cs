@@ -11,8 +11,6 @@ namespace BLL.DTOs
         public int PayrollDetailId { get; set; }
         public int PayrollId { get; set; }
         public int EmployeeId { get; set; }
-        public string EmployeeName { get; set; }
-        public string Position { get; set; }
         public decimal BasicSalary { get; set; }
         public decimal TotalAllowances { get; set; }
         public decimal BonusAmount { get; set; }
