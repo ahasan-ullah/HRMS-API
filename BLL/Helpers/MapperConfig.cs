@@ -19,6 +19,8 @@ namespace BLL.Helpers
             c.CreateMap<SalaryRevision, SalaryRevisionDTO>().ReverseMap();
             c.CreateMap<Deduction, DeductionDTO>().ReverseMap();
             c.CreateMap<Bonus, BonusDTO>().ReverseMap();
+            c.CreateMap<Payroll, PayrollDTO>().ReverseMap();
+            c.CreateMap<PayrollDetail, PayrollDetailDTO>().ReverseMap();
         });
 
         public static Mapper GetMapper()
