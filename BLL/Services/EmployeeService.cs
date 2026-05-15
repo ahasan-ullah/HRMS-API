@@ -68,7 +68,16 @@ namespace BLL.Services
             }
 
             var emp = MapperConfig.GetMapper().Map<Employee>(employee);
-            return DataAccessFactory.EmployeeDataAccess().Create(emp);
+            bool created= DataAccessFactory.EmployeeDataAccess().Create(emp);
+            if (created)
+            {
+                var saved = DataAccessFactory.EmployeeDataAccess()
+                    .GetByEmail(employee.Email);
+
+                if (saved != null)
+                    AuthService.CreateEmployeeUser(saved.EmployeeId, saved.FirstName);
+            }
+            return created;
         }
 
         public static bool Update(EmployeeDTO employee)

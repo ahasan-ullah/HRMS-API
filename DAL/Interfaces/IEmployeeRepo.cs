@@ -10,5 +10,6 @@ namespace DAL.Interfaces
     {
         bool EmailExists(string email, int? excludeEmployeeId = null);
         bool AccountNumberExists(string accountNumber, int? excludeEmployeeId = null);
+        Employee GetByEmail(string email);
     }
 }

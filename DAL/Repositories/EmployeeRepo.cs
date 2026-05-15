@@ -74,5 +74,10 @@ namespace DAL.Repositories
             dbContext.Entry(existingEmployee).CurrentValues.SetValues(obj);
             return dbContext.SaveChanges()>0;
         }
+
+        public Employee GetByEmail(string email)
+        {
+            return dbContext.Employees.FirstOrDefault(e => e.Email == email);
+        }
     }
 }
