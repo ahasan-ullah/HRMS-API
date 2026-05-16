@@ -1,5 +1,4 @@
-﻿using DAL.Enums;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -40,7 +39,7 @@ namespace DAL.Models
         public Payroll()
         {
             GeneratedDate = DateTime.Now;
-            Status = HRMSEnums.PayrollStatus.Draft.ToString();
+            Status = "Draft";
             TotalAmount = 0;
             PayrollDetails = new List<PayrollDetail>();
         }

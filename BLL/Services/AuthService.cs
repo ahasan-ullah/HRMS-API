@@ -31,7 +31,7 @@ namespace BLL.Services
 
             DataAccessFactory.RefreshTokenDataAccess().RevokeByUserId(user.UserId);
 
-            var accessToken = JWTHelper.GenerateAccessToken(user.UserId, user.Username, user.Role);
+            var accessToken = JWTHelper.GenerateAccessToken(user.UserId, user.Username, user.Role.ToString());
             var refreshToken = JWTHelper.GenerateRefreshToken();
 
             var tokenRecord = new RefreshToken
@@ -48,7 +48,7 @@ namespace BLL.Services
                 AccessToken = accessToken,
                 RefreshToken = refreshToken,
                 ExpiresInMinutes = 15,
-                Role = user.Role,
+                Role = user.Role.ToString(),
                 UserId = user.UserId,
                 Username = user.Username
             };
@@ -80,7 +80,7 @@ namespace BLL.Services
             tokenRecord.IsRevoked = true;
             DataAccessFactory.RefreshTokenDataAccess().Update(tokenRecord);
 
-            string accessToken = JWTHelper.GenerateAccessToken(user.UserId, user.Username, user.Role);
+            string accessToken = JWTHelper.GenerateAccessToken(user.UserId, user.Username, user.Role.ToString());
             string newRefreshToken = JWTHelper.GenerateRefreshToken();
 
             var newTokenRecord = new RefreshToken
@@ -97,7 +97,7 @@ namespace BLL.Services
                 AccessToken = accessToken,
                 RefreshToken = newRefreshToken,
                 ExpiresInMinutes = 15,
-                Role = user.Role,
+                Role = user.Role.ToString(),
                 UserId = user.UserId,
                 Username = user.Username
             };

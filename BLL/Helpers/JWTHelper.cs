@@ -54,6 +54,7 @@ namespace BLL.Helpers
             try
             {
                 var handler = new JwtSecurityTokenHandler();
+                handler.InboundClaimTypeMap.Clear();
                 return handler.ValidateToken(token, parameters, out _);
             }
             catch

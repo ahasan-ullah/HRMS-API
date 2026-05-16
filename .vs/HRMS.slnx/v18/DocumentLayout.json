@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Workspace\\SDD\\HRMS-API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\repositories\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PayrollService.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\PayrollService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\PayrollService.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\PayrollService.cs",
+              "RelativeToolTip": "BLL\\Services\\PayrollService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswJoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:27:58.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRepo.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\EmployeeRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\EmployeeRepo.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\EmployeeRepo.cs",
+              "RelativeToolTip": "DAL\\Repositories\\EmployeeRepo.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwCoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:27:02.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,4 @@
-﻿using DAL.Enums;
-using DAL.Interfaces;
+﻿using DAL.Interfaces;
 using DAL.Models;
 using DAL.Models.Context;
 using System;
@@ -41,7 +40,7 @@ namespace DAL.Repositories
             if (employee == null)
                 return false;
             employee.IsActive = false;
-            employee.EmploymentStatus = HRMSEnums.EmploymentStatus.Terminated.ToString();
+            employee.EmploymentStatus = "Terminated";
             employee.UpdatedAt = DateTime.Now;
             dbContext.Entry(employee).CurrentValues.SetValues(employee);
             return dbContext.SaveChanges() > 0;
