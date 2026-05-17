@@ -113,6 +113,7 @@
     <Compile Include="DTOs\SalaryDTO.cs" />
     <Compile Include="DTOs\SalaryRevisionDTO.cs" />
     <Compile Include="DTOs\TokenResponseDTO.cs" />
+    <Compile Include="DTOs\UserDTO.cs" />
     <Compile Include="Helpers\JWTHelper.cs" />
     <Compile Include="Helpers\MapperConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -123,6 +124,7 @@
     <Compile Include="Services\EmployeeService.cs" />
     <Compile Include="Services\PayrollService.cs" />
     <Compile Include="Services\SalaryService.cs" />
+    <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

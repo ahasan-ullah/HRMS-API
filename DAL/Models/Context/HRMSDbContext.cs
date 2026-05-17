@@ -33,7 +33,8 @@ namespace DAL.Models.Context
             modelBuilder.Entity<User>()
                 .HasOptional(u => u.Employee)
                 .WithOptionalDependent(e => e.User)
-                .Map(m => m.MapKey("EmployeeId"));
+                .Map(m => m.MapKey("EmployeeId"))
+                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Salary>()
                 .HasRequired(s => s.Employee)

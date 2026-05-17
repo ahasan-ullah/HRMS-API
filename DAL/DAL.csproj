@@ -79,6 +79,10 @@
     <Compile Include="Migrations\202605151742389_token table created.Designer.cs">
       <DependentUpon>202605151742389_token table created.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202605171703262_table-updated.cs" />
+    <Compile Include="Migrations\202605171703262_table-updated.Designer.cs">
+      <DependentUpon>202605171703262_table-updated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Bonus.cs" />
     <Compile Include="Models\Context\HRMSDbContext.cs" />
@@ -119,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202605151742389_token table created.resx">
       <DependentUpon>202605151742389_token table created.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202605171703262_table-updated.resx">
+      <DependentUpon>202605171703262_table-updated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

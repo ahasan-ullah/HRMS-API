@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\Workspace\\SDD\\HRMS-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|d:\\workspace\\sdd\\hrms-api\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\repositories\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|d:\\workspace\\sdd\\hrms-api\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|d:\\workspace\\sdd\\hrms-api\\api\\controllers\\bonuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B39E3BC-7193-4B41-BBBE-A8AA6AB41DCF}|API\\API.csproj|solutionrelative:api\\controllers\\bonuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\helpers\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\helpers\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|d:\\workspace\\sdd\\hrms-api\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D477C33E-74C6-420B-A144-6A3E42DE6DF0}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|d:\\workspace\\sdd\\hrms-api\\dal\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255558C-3C51-41FF-B318-2F9194E1F58C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PayrollService.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\PayrollService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\PayrollService.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\PayrollService.cs",
-              "RelativeToolTip": "BLL\\Services\\PayrollService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAswJoAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T08:27:58.494Z",
+              "WhenOpened": "2026-05-17T18:58:34.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeRepo.cs",
-              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\EmployeeRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\EmployeeRepo.cs",
-              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\EmployeeRepo.cs",
-              "RelativeToolTip": "DAL\\Repositories\\EmployeeRepo.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAUwCoAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BonusController.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\BonusController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BonusController.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\BonusController.cs",
+              "RelativeToolTip": "API\\Controllers\\BonusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T08:27:02.033Z",
+              "WhenOpened": "2026-05-17T18:58:32.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAkwEIAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:56:28.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapperConfig.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Helpers\\MapperConfig.cs",
+              "RelativeDocumentMoniker": "BLL\\Helpers\\MapperConfig.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Helpers\\MapperConfig.cs",
+              "RelativeToolTip": "BLL\\Helpers\\MapperConfig.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wCIAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:55:30.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:55:29.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:52:18.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\UserRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\UserRepo.cs",
+              "ToolTip": "D:\\Workspace\\SDD\\HRMS-API\\DAL\\Repositories\\UserRepo.cs",
+              "RelativeToolTip": "DAL\\Repositories\\UserRepo.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:51:16.199Z",
               "EditorCaption": ""
             }
           ]

@@ -37,7 +37,7 @@ namespace DAL.Repositories
 
         public List<Salary> Get()
         {
-            return dbContext.Salaries.ToList();
+            return dbContext.Salaries.Where(s => s.IsActive).ToList();
         }
 
         public Salary Get(int id)

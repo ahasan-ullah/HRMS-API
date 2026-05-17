@@ -15,6 +15,7 @@ namespace BLL.DTOs
         public int GeneratedBy { get; set; }
         public decimal TotalAmount { get; set; }
         public string Status { get; set; }
+        public int TotalEmployees { get; set; }
         public PayrollDTO()
         {
             GeneratedDate = DateTime.Now;

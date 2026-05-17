@@ -118,6 +118,7 @@
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\PayrollController.cs" />
     <Compile Include="Controllers\SalaryController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Filters\JWTAuthFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

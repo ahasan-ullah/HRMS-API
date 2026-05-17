@@ -75,6 +75,9 @@ namespace DAL.Models
 
         public Employee()
         {
+            IsActive = true;
+            EmploymentStatus = "Active";
+            CreatedAt = DateTime.Now;
             Salaries = new List<Salary>();
             SalaryRevisions = new List<SalaryRevision>();
             Deductions = new List<Deduction>();

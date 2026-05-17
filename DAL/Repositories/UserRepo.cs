@@ -65,9 +65,11 @@ namespace DAL.Repositories
             {
                 return false;
             }
+            existingUser.Username = obj.Username;
             existingUser.Role = obj.Role;
             existingUser.IsActive = obj.IsActive;
             existingUser.LastLogin = obj.LastLogin;
+            existingUser.PasswordHash = obj.PasswordHash;
             return dbContext.SaveChanges() > 0;
         }
     }
