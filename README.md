@@ -659,20 +659,6 @@ Content-Type: application/json
 - [ ] 📄 Payslip PDF export
 - [ ] 🔒 Move secrets out of `Web.config`
 
-## 🤝 Contributing
-
-Contributions are welcome:
-
-1. 🍴 Fork the repository
-2. 🌿 Create a feature branch: `git checkout -b feature/amazing-feature`
-3. 💾 Commit your changes: `git commit -m "Add amazing feature"`
-4. 📤 Push the branch: `git push origin feature/amazing-feature`
-5. 🔃 Open a Pull Request
-
-## 📜 License
-
-This repository doesn't include a license file yet. Until one is added, all rights are reserved by the author.
-
 ## 👨‍💻 Author
 
 <p align="center">
