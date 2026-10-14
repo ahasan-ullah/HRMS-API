@@ -53,6 +53,7 @@ namespace DAL.Models
         public DateTime JoiningDate { get; set; }
 
         public bool IsActive { get; set; }
+        public string Remark { get; set; }
 
         [Required]
         public DateTime CreatedAt { get; set; }

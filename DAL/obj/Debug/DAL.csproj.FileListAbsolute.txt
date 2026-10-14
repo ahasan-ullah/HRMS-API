@@ -30,3 +30,4 @@ D:\Workspace\SDD\HRMS-API\DAL\obj\Debug\DAL.Migrations.upadtedsalaryrevisiontabl
 D:\Workspace\SDD\HRMS-API\DAL\obj\Debug\DAL.Migrations.upadtedsalarytable.resources
 D:\Workspace\SDD\HRMS-API\DAL\obj\Debug\DAL.Migrations.tokentablecreated.resources
 D:\Workspace\SDD\HRMS-API\DAL\obj\Debug\DAL.Migrations.tableupdated.resources
+D:\Workspace\SDD\HRMS-API\DAL\obj\Debug\DAL.Migrations.updateemployeetable.resources

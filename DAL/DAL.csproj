@@ -83,6 +83,10 @@
     <Compile Include="Migrations\202605171703262_table-updated.Designer.cs">
       <DependentUpon>202605171703262_table-updated.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202605181122209_update employee table.cs" />
+    <Compile Include="Migrations\202605181122209_update employee table.Designer.cs">
+      <DependentUpon>202605181122209_update employee table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Bonus.cs" />
     <Compile Include="Models\Context\HRMSDbContext.cs" />
@@ -126,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202605171703262_table-updated.resx">
       <DependentUpon>202605171703262_table-updated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202605181122209_update employee table.resx">
+      <DependentUpon>202605181122209_update employee table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

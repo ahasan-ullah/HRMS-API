@@ -19,6 +19,7 @@ namespace BLL.DTOs
         public string AccountNumber { get; set; }
         public string EmploymentStatus { get; set; }
         public DateTime JoiningDate { get; set; }
+        public string Remark { get; set; }
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
